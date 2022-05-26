@@ -286,6 +286,14 @@ body {
 
 @media (min-width: 600px) {
 
+    .computer article {
+        align-items: center;
+    }
+
+    .computer div {
+        width: 70%;
+    }
+
     .services {
         padding-top: 5%;
     }
