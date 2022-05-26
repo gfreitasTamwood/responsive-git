@@ -286,6 +286,18 @@ body {
 
 @media (min-width: 600px) {
 
+    header {
+        font-size: 26px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    details > ul {
+        width: 30%;
+    }
+
     .features {
         padding-top: 5%;
         padding-bottom: 3%;
