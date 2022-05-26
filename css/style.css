@@ -417,6 +417,53 @@ body {
 
 @media (min-width: 1000px) {
 
+    header > article:nth-child(1) {
+        width: 100%;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    nav > ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav li {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+    }
+
+    nav a {
+        width: 100%;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 5%;
+        font-size: 18px;
+        
+    }
+
+    nav a:hover {
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        background-color: darkslateblue;
+    }
+
+    details {
+        display: none;
+    }
+
+    .features {
+        padding-bottom: 0%;
+    }
+
+    .features article {
+        flex-wrap: unset;
+    }
+
     .computer {
         flex-direction: row;
         justify-content: center;
@@ -456,7 +503,8 @@ body {
     }
 
     .about > h2,
-    .call-action > h2 {
+    .call-action > h2,
+    .features > h2 {
         width: fit-content;
         border-bottom: 2px solid cornflowerblue;
         font-size: 50px;
