@@ -294,8 +294,21 @@ body {
         font-size: 50px;
     }
 
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+
+    details {
+        position: relative;
+        width: 40%;
+        text-align: center;
+    }
+
     details > ul {
-        width: 30%;
+        position: absolute;
+        width: 100%;
     }
 
     .features {
