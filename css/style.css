@@ -41,6 +41,11 @@ body {
         justify-content: center;
     }
 
+    details {
+        position: relative;
+        text-align: right;
+    }
+
     summary {
         font-size: 30px;
     }
