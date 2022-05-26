@@ -303,12 +303,13 @@ body {
     details {
         position: relative;
         width: 40%;
-        text-align: center;
+        text-align: right;
     }
 
     details > ul {
         position: absolute;
         width: 100%;
+        text-align: center;
     }
 
     .features {
