@@ -292,3 +292,148 @@ body {
         text-decoration: none;
     }
 }
+
+@media (min-width: 600px) {
+
+    header {
+        font-size: 26px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+
+    details {
+        position: relative;
+        width: 40%;
+        text-align: right;
+    }
+
+    details > ul {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
+    .features > article {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .features > h2 {
+        font-size: 36px;
+        padding-bottom: 2%;
+    }
+
+    .features i {
+        font-size: 36px;
+    }
+
+    .features h4 {
+        font-size: 20px;
+    }
+
+    .features p {
+        font-size: 18px;
+    }
+
+    .computer article {
+        align-items: center;
+    }
+
+    .computer div {
+        width: 70%;
+    }
+
+    .services {
+        padding-top: 5%;
+    }
+
+    .services > h2 {
+        font-size: 36px;
+        padding-top: 1%;
+        padding-bottom: 3%;
+    }
+
+    .services i {
+        font-size: 56px;
+    }
+
+    .services h3 {
+        font-size: 26px;
+    }
+
+    .services p {
+        font-size: 20px;
+    }
+
+    .call-action > h2 {
+        font-size: 36px;
+    }
+
+    .call-action > p {
+        font-size: 24px;
+    }
+
+    .about {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .about > h2 {
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+
+    .about div > figure {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .about figcaption {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 24px;
+    }
+
+    .about img {
+        width: 80%;
+    }
+
+    .testimonials {
+        min-height: 15vh;
+    }
+
+    .testimonials > h2 {
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+
+    .testimonials > p {
+        font-size: 20px;
+        padding-top: 2%;
+    }
+
+    footer {
+        min-height: 15vh;
+    }
+
+    footer > div,
+    footer > span {
+        justify-content: center;
+        column-gap: 15px;
+    }
+}
