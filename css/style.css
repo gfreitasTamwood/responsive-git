@@ -41,15 +41,24 @@ body {
         justify-content: center;
     }
 
+    nav {
+        width: 80%;
+    }
+
+    details {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+
     summary {
         font-size: 30px;
     }
 
     details > ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         position: absolute;
+        width: 100%;
+        text-align: center;
     }
 
     details li {
@@ -426,5 +435,135 @@ body {
     footer > span {
         justify-content: center;
         column-gap: 15px;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    header > article:nth-child(1) {
+        width: 100%;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    nav > ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav li {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+    }
+
+    nav a {
+        width: 100%;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 5%;
+        font-size: 18px;
+        
+    }
+
+    nav a:hover {
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        background-color: darkslateblue;
+    }
+
+    details {
+        display: none;
+    }
+
+    .features {
+        padding-bottom: 0%;
+    }
+
+    .features article {
+        flex-wrap: unset;
+    }
+
+    .computer {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .computer > article {
+        padding: 1%;
+        width: 45%;
+    }
+
+    .computer > article:nth-child(2) {
+        align-items: flex-start;
+    }
+
+    .services > h2 {
+        width: 100%;
+        font-size: 50px;
+        padding-bottom: 2%;
+    }
+
+    .services > article {
+        width: 25%;
+    }
+
+    .call-action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .call-action > p {
+        padding-top: 3%;
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .about > h2,
+    .call-action > h2,
+    .features > h2 {
+        width: fit-content;
+        border-bottom: 2px solid cornflowerblue;
+        font-size: 50px;
+        padding-bottom: 2%;
+    }
+
+    .about > div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 95%;
+        padding-top: 5%;
+    }
+
+    .about div > figure {
+        width: 30%;
+        padding: 0;
+    }
+
+    .testimonials {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .testimonials > h2 {
+        width: fit-content;
+        border-bottom: 2px solid whitesmoke;
+        font-size: 50px;
+        padding-bottom: 2%;
+    }
+
+    .testimonials > p {
+        font-size: 30px;
+    }
+
+    footer [class^="fa-"] {
+        font-size: 28px;
     }
 }
